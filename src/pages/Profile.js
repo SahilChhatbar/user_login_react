@@ -132,7 +132,7 @@ const Profile = () => {
             placeholder="Tell us about yourself"
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-primary">Save Changes</button>
+        <button type="submit" className="btn btn-success">Save Changes</button>
       </form>
 
       {success && <p className="alert alert-success">{success}</p>}
